@@ -27,22 +27,22 @@ ttl = getjson(ttl_file)
 
 # create a node
 def create_node(nid,node_type,uid,name,properties):
-    node_type = node_type.lower()
+    node_type = node_type.lower().replace(" ","")
     if len(properties) > 0:
         property_string = ""
         for p in range(len(properties)):
-            property_name = properties[p][0]
+            property_name = properties[p][0].lower().replace(" ","")
             property_value = properties[p][1]
-            property_string = '%s "%s":"%s",' %(property_string,property_name,property_value)
+            property_string = "%s %s : '%s'," %(property_string,property_name,property_value)
         property_string = property_string[:-1]
-        return 'create (_%s:"%s" {"id":"%s", "name":"%s", %s})\n' %(nid,node_type,uid,name,property_string)
+        return "create (_%s:%s { id : '%s', name :'%s', %s})\n" %(nid,node_type,uid,name,property_string)
     else:
-        return 'create (_%s:"%s" {"id":"%s", "name":"%s"})\n' %(nid,node_type,uid,name)
+        return "create (_%s:%s { id : '%s', name :'%s'})\n" %(nid,node_type,uid,name)
 
 # create a relationship
 def create_relation(nid1,nid2,relationship):
     relationship = relationship.upper()
-    return "create _%s-[:`%s`]->_%s\n" %(nid1,relationship,nid2)
+    return "create _%s-[:'%s']->_%s\n" %(nid1,relationship,nid2)
 
 fields,lookup = get_lookups(ttl)
 groups = get_field_groups(ttl)
