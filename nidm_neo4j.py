@@ -43,7 +43,7 @@ def create_node(nid,node_type,uid,name,properties):
 # create a relationship
 def create_relation(nid1,nid2,relationship):
     relationship = relationship.upper().replace("'","").replace("-","")
-    return "create _%s-[:'%s']->_%s\n" %(nid1,relationship,nid2)
+    return "create _%s-[:`%s`]->_%s\n" %(nid1,relationship,nid2)
 
 fields,lookup = get_lookups(ttl)
 groups = get_field_groups(ttl)
