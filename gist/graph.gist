@@ -161,7 +161,7 @@ create _84-[:`WASGENERATEDBY`]->_8
 We can use cypher to query the graph, here is an example to select the first 25 atLocation relationships:
 [source, cypher]
 ----
-MATCH (p:peak)-[p:ATLOCATION]->(c:coordinate) RETURN c
+MATCH (p:peak)-[l:ATLOCATION]->(c:coordinate) RETURN c as coordinate, p as peak
 ----
 //table
 '''
