@@ -1,6 +1,15 @@
 # NIDM-Results-neo4j
 
 Testing NIDM-Results Turtle as a [neo4j graph](http://neo4j.com/)
+[Here is the result!](http://gist.neo4j.org/?github-vsoch%2Fnidm-neo4j%2F%2Fgist%2Fgraph.gist)
+
+#### 0. Generating your own
+
+use [create_gist.sh](create_gist.sh) to re-generate the example. Note that I specify a github repo name, a user name, and an output folder. The example queries are hard-coded, however the neo4j gist has an interactive console, so this isn't an issue.
+
+Also note that to generate this gist I used functions from the [nidmviewer]() package to parse the RDF. These are in development and don't even use sparql. It would be ideal to move away from having to use RDF, period.
+
+### To set up your own neo4j server
 
 This script will generate code in cypher that can be rendered automatically via a gist, however if you want to set up your own neo4j server, you can follow the instructions below. For the gist, see the [gist](gist) folder.
 
