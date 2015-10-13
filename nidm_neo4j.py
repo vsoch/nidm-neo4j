@@ -118,8 +118,9 @@ for node in neo4j:
     filey.writelines(node)
 for relation in relations:
     filey.writelines(relation)
-filey.writelines("----\n//graph\nWe can use cypher to query the graph, here is an example to select the first 25 atLocation relationships:\n[source, cypher]\n----\nMATCH ()-[r:ATLOCATION]->() RETURN r LIMIT 25\n----\n//table\n'''\nHere is an interactive console for you to explore the graph\n\n//console\n'''\n\n== NIDM Working Group\n* link:http://http://nidm.nidash.org/[NIDM Standard]")
+filey.writelines("----\n//graph\nWe can use cypher to query the graph, here are some examples:\n[source, cypher]\n----\nMATCH (p:peak)-[l:ATLOCATION]->(c:coordinate) RETURN c as coordinate, p as peak\n----\n//table\n'''\n[source, cypher]\n----\nMATCH (p:peak)-[l:ATLOCATION]->(c:coordinate) RETURN c.name as name, c.coordinatevector as coordinate, p.equivalent_zstatistic as z, p.name as peak_name, p.pvalue_uncorrected as pvalue_uncorrected\n----\n//table\n'''\n== NIDM Working Group\n* link:http://http://nidm.nidash.org/[NIDM Standard]\n")
 filey.close()
+
 
 # Now write a Readme to link the gist
 filey = open("%s/README.md" %(outfolder),'w')
