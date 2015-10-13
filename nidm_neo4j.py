@@ -17,7 +17,8 @@ import sys
 
 ttl_file = sys.argv[1]
 outfolder = sys.argv[2]
-repo_url = sys.argv[3]
+username = sys.argv[3]
+repo_name = sys.argv[4]
 
 if not os.path.exists(outfolder):
     os.mkdir(outfolder)
@@ -27,15 +28,16 @@ ttl = getjson(ttl_file)
 # create a node
 def create_node(nid,node_type,uid,name,properties):
     node_type = node_type.lower()
-    property_string = ""
-    for p in range(len(properties)):
-        property_name = properties[p][0]
-        property_value = properties[p][1]
-        if p==len(properties)-1:
-            property_string = '%s `%s`:"%s" ' %(property_string,property_name,property_value)
-        else:
-            property_string = '%s `%s`:"%s", ' %(property_string,property_name,property_value)
-    return 'create (_%s:`%s` {`id`:"%s", `name`:"%s", %s})\n' %(nid,node_type,uid,name,property_string)
+    if len(properties) > 0:
+        property_string = ""
+        for p in range(len(properties)):
+            property_name = properties[p][0]
+            property_value = properties[p][1]
+            property_string = '%s "%s":"%s",' %(property_string,property_name,property_value)
+        property_string = property_string[:-1]
+        return 'create (_%s:"%s" {"id":"%s", "name":"%s", %s})\n' %(nid,node_type,uid,name,property_string)
+    else:
+        return 'create (_%s:"%s" {"id":"%s", "name":"%s"})\n' %(nid,node_type,uid,name)
 
 # create a relationship
 def create_relation(nid1,nid2,relationship):
@@ -121,5 +123,5 @@ filey.close()
 # Now write a Readme to link the gist
 filey = open("%s/README.md" %(outfolder),'w')
 filey.writelines("### %s\n" %(ttl_file))
-filey.writelines("[view graph](http://gist.neo4j.org/?%s/%s/graph.gist)" %(repo_url,outfolder))
+filey.writelines("[view graph](http://gist.neo4j.org/?github-"+ username + "%2F" + repo_name + "%2F%2F" + outfolder + "%2Fgraph.gist)\n")
 filey.close()

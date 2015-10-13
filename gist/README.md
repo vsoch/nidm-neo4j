@@ -1,2 +1,2 @@
 ### fsl_course_av.nidm.ttl
-[view graph](http://gist.neo4j.org/?https://github.com/vsoch/nidm-neo4j/blob/master/gist/graph.gist)
+[view graph](http://gist.neo4j.org/?github-vsoch%2Fnidm-neo4j%2F%2Fgist%2Fgraph.gist)
