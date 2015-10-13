@@ -161,13 +161,9 @@ create _84-[:`WASGENERATEDBY`]->_8
 We can use cypher to query the graph, here is an example to select the first 25 atLocation relationships:
 [source, cypher]
 ----
-MATCH ()-[r:ATLOCATION]->() RETURN r LIMIT 25
+MATCH (p:peak)-[p:ATLOCATION]->(c:coordinate) RETURN c
 ----
 //table
-'''
-Here is an interactive console for you to explore the graph
-
-//console
 '''
 
 == NIDM Working Group
