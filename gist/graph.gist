@@ -24,68 +24,68 @@ create (_12:peak { id : 'http://iri.nidash.org/c13f042a-6260-40a0-b6c8-bae079a3f
 create (_13:designmatrix { id : 'http://iri.nidash.org/e96cbf97-682a-4393-931a-3c8a8dc2549a', name :'Design Matrix',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/DesignMatrix.csv', filename : 'DesignMatrix.csv'})
 create (_14:coordinate { id : 'http://iri.nidash.org/ba5df904-7193-4765-a3a3-38320c3d6058', name :'Coordinate 0001_6',  coordinatevector : '[ 4.83, -92.6, -5.96 ]'})
 create (_15:peak { id : 'http://iri.nidash.org/9ccc85f7-8718-4021-9bc1-a285c04e1e90', name :'Peak 0002_3',  pvalue_uncorrected : '9.73121583314e-12', equivalent_zstatistic : '6.71'})
-create (_16:data { id : 'http://iri.nidash.org/b643af23-701d-4bd5-91e2-fa13a3cfe08a', name :'data_97',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/DesignMatrix.png', filename : 'DesignMatrix.png'})
-create (_17:searchspacemaskmap { id : 'http://iri.nidash.org/03e686d6-861f-45f1-b8cb-9f8dc2857cff', name :'Search Space Mask Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/SearchSpaceMask.nii.gz', filename : 'SearchSpaceMask.nii.gz'})
-create (_18:data { id : 'http://iri.nidash.org/840194af-93f8-4151-8ef3-801b4b6a936f', name :'data_97',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/rendered_thresh_zstat1.png', filename : 'rendered_thresh_zstat1.png'})
-create (_19:data { id : 'http://iri.nidash.org/a962aeb8-7e58-42c3-8013-0e635d7a607a', name :'Data'})
-create (_20:coordinate { id : 'http://iri.nidash.org/e8119f57-684e-4240-b049-ead0f9ed48f3', name :'Coordinate 0002_5',  coordinatevector : '[ -55.7, -7.65, -1.09 ]'})
-create (_21:peakdefinitioncriteria { id : 'http://iri.nidash.org/7d42ded5-78bc-4a0b-8d93-d5feaa5e8b9b', name :'Peak Definition Criteria'})
-create (_22:parameterestimate { id : 'http://iri.nidash.org/67b40742-77eb-43f6-9d58-eae0e1d591fa', name :'Parameter estimate 4',  filename : 'pe4.nii.gz'})
-create (_23:heightthreshold { id : 'http://iri.nidash.org/a6bc0346-80ab-470d-a1be-09420e54f534', name :'Height Threshold: Z>2.3',  value : '2.3'})
-create (_24:clusterconnectivitycriterion { id : 'http://iri.nidash.org/626ddb28-b83c-4356-9e0d-ef71018e1fc4', name :'Cluster Connectivity Criterion: 26'})
-create (_25:extentthreshold { id : 'http://iri.nidash.org/c23adee6-ebf1-43d2-8aac-305fdec4f822', name :'Extent Threshold: p<0.05 (FWE)',  value : '0.05'})
-create (_26:coordinate { id : 'http://iri.nidash.org/f46f85aa-8c21-4ffc-b866-5d5c379a3baa', name :'Coordinate 0001_2',  coordinatevector : '[ 39.2, 55.4, -18.6 ]'})
-create (_27:peak { id : 'http://iri.nidash.org/2105022a-d08d-41c8-bb4d-10f08bbdce6f', name :'Peak 0001_5',  pvalue_uncorrected : '8.85440609721e-11', equivalent_zstatistic : '6.38'})
-create (_28:peak { id : 'http://iri.nidash.org/515305be-5d9e-410d-8abc-a59b7e753f50', name :'Peak 0002_2',  pvalue_uncorrected : '6.00874905388e-12', equivalent_zstatistic : '6.78'})
-create (_29:peak { id : 'http://iri.nidash.org/bb03abca-f447-4162-a31c-6ca27155a420', name :'Peak 0001_3',  pvalue_uncorrected : '4.87987428244e-12', equivalent_zstatistic : '6.81'})
-create (_30:coordinate { id : 'http://iri.nidash.org/a2385c7a-fe38-46c1-8701-d4e12ff81900', name :'Coordinate 0001_4',  coordinatevector : '[ 3.07, 31.7, -17.1 ]'})
-create (_31:peak { id : 'http://iri.nidash.org/a4097c7e-fb45-4fea-b3b4-261407807781', name :'Peak 0001_3',  pvalue_uncorrected : '0.000301790624609', equivalent_zstatistic : '3.43'})
-create (_32:peak { id : 'http://iri.nidash.org/cf9d5a9f-bbef-45dc-829c-c04db302c87a', name :'Peak 0001_1',  pvalue_uncorrected : '2.08388861722e-13', equivalent_zstatistic : '7.25'})
-create (_33:extentthreshold { id : 'http://iri.nidash.org/e2e44443-0d8d-4009-9380-f046a6b40465', name :'Extent Threshold: p<0.05 (FWE)',  value : '0.05'})
-create (_34:statisticmap { id : 'http://iri.nidash.org/736d966b-68e0-430d-8d75-37e83bbb2364', name :'ZStatistic Map: Visual',  filename : 'zstat1.nii.gz', atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ZStatistic_T001.nii.gz'})
-create (_35:coordinate { id : 'http://iri.nidash.org/38182d3a-a375-4bc8-b656-1601e7164851', name :'Coordinate 0001',  coordinatevector : '[ 22.5, 36.7, -15.6 ]'})
-create (_36:peak { id : 'http://iri.nidash.org/15d144e7-cbdd-4843-a18a-4dac0e8d403e', name :'Peak 0002_4',  pvalue_uncorrected : '1.04209973983e-11', equivalent_zstatistic : '6.7'})
-create (_37:contrastweights { id : 'http://iri.nidash.org/ebfae53f-c1bb-4ae3-bcb1-be2d0aab8c8e', name :'Contrast Weights: Audi',  value : '[0, 0, 1, 0]'})
-create (_38:parameterestimate { id : 'http://iri.nidash.org/1a200719-0a7e-42bb-a4b8-1006bd156ba8', name :'Parameter estimate 3',  filename : 'pe3.nii.gz'})
-create (_39:grandmeanmap { id : 'http://iri.nidash.org/bacfbf52-706a-4737-883f-e8395d19adba', name :'Grand Mean Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/GrandMean.nii.gz', filename : 'mean_func.nii.gz'})
-create (_40:peakdefinitioncriteria { id : 'http://iri.nidash.org/0fd90c6c-35b8-43bd-9efd-f850aab1ec7e', name :'Peak Definition Criteria'})
-create (_41:coordinate { id : 'http://iri.nidash.org/71ba2b8e-31a0-4027-9252-35a15906c451', name :'Coordinate 0001_2',  coordinatevector : '[ -8.72, -96.4, 8.03 ]'})
-create (_42:excursionsetmap { id : 'http://iri.nidash.org/59648721-73fe-42f4-92bf-8ca993fe7d03', name :'Excursion Set Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ExcursionSet_T001.nii.gz', filename : 'ExcursionSet_T001.nii.gz'})
-create (_43:parameterestimate { id : 'http://iri.nidash.org/a70527c7-0a7a-4811-9754-3c8850868d33', name :'Parameter estimate 1',  filename : 'pe1.nii.gz'})
+create (_16:searchspacemaskmap { id : 'http://iri.nidash.org/03e686d6-861f-45f1-b8cb-9f8dc2857cff', name :'Search Space Mask Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/SearchSpaceMask.nii.gz', filename : 'mask.nii.gz'})
+create (_17:data { id : 'http://iri.nidash.org/840194af-93f8-4151-8ef3-801b4b6a936f', name :'data_97',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/rendered_thresh_zstat1.png', filename : 'rendered_thresh_zstat1.png'})
+create (_18:data { id : 'http://iri.nidash.org/a962aeb8-7e58-42c3-8013-0e635d7a607a', name :'Data'})
+create (_19:coordinate { id : 'http://iri.nidash.org/e8119f57-684e-4240-b049-ead0f9ed48f3', name :'Coordinate 0002_5',  coordinatevector : '[ -55.7, -7.65, -1.09 ]'})
+create (_20:peakdefinitioncriteria { id : 'http://iri.nidash.org/7d42ded5-78bc-4a0b-8d93-d5feaa5e8b9b', name :'Peak Definition Criteria'})
+create (_21:parameterestimate { id : 'http://iri.nidash.org/67b40742-77eb-43f6-9d58-eae0e1d591fa', name :'Parameter estimate 4',  filename : 'pe4.nii.gz'})
+create (_22:heightthreshold { id : 'http://iri.nidash.org/a6bc0346-80ab-470d-a1be-09420e54f534', name :'Height Threshold: Z>2.3',  value : '2.3'})
+create (_23:clusterconnectivitycriterion { id : 'http://iri.nidash.org/626ddb28-b83c-4356-9e0d-ef71018e1fc4', name :'Cluster Connectivity Criterion: 26'})
+create (_24:extentthreshold { id : 'http://iri.nidash.org/c23adee6-ebf1-43d2-8aac-305fdec4f822', name :'Extent Threshold: p<0.05 (FWE)',  value : '0.05'})
+create (_25:coordinate { id : 'http://iri.nidash.org/f46f85aa-8c21-4ffc-b866-5d5c379a3baa', name :'Coordinate 0001_2',  coordinatevector : '[ 39.2, 55.4, -18.6 ]'})
+create (_26:peak { id : 'http://iri.nidash.org/2105022a-d08d-41c8-bb4d-10f08bbdce6f', name :'Peak 0001_5',  pvalue_uncorrected : '8.85440609721e-11', equivalent_zstatistic : '6.38'})
+create (_27:peak { id : 'http://iri.nidash.org/515305be-5d9e-410d-8abc-a59b7e753f50', name :'Peak 0002_2',  pvalue_uncorrected : '6.00874905388e-12', equivalent_zstatistic : '6.78'})
+create (_28:peak { id : 'http://iri.nidash.org/bb03abca-f447-4162-a31c-6ca27155a420', name :'Peak 0001_3',  pvalue_uncorrected : '4.87987428244e-12', equivalent_zstatistic : '6.81'})
+create (_29:coordinate { id : 'http://iri.nidash.org/a2385c7a-fe38-46c1-8701-d4e12ff81900', name :'Coordinate 0001_4',  coordinatevector : '[ 3.07, 31.7, -17.1 ]'})
+create (_30:peak { id : 'http://iri.nidash.org/a4097c7e-fb45-4fea-b3b4-261407807781', name :'Peak 0001_3',  pvalue_uncorrected : '0.000301790624609', equivalent_zstatistic : '3.43'})
+create (_31:peak { id : 'http://iri.nidash.org/cf9d5a9f-bbef-45dc-829c-c04db302c87a', name :'Peak 0001_1',  pvalue_uncorrected : '2.08388861722e-13', equivalent_zstatistic : '7.25'})
+create (_32:extentthreshold { id : 'http://iri.nidash.org/e2e44443-0d8d-4009-9380-f046a6b40465', name :'Extent Threshold: p<0.05 (FWE)',  value : '0.05'})
+create (_33:statisticmap { id : 'http://iri.nidash.org/736d966b-68e0-430d-8d75-37e83bbb2364', name :'ZStatistic Map: Visual',  filename : 'zstat1.nii.gz', atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ZStatistic_T001.nii.gz'})
+create (_34:coordinate { id : 'http://iri.nidash.org/38182d3a-a375-4bc8-b656-1601e7164851', name :'Coordinate 0001',  coordinatevector : '[ 22.5, 36.7, -15.6 ]'})
+create (_35:peak { id : 'http://iri.nidash.org/15d144e7-cbdd-4843-a18a-4dac0e8d403e', name :'Peak 0002_4',  pvalue_uncorrected : '1.04209973983e-11', equivalent_zstatistic : '6.7'})
+create (_36:contrastweights { id : 'http://iri.nidash.org/ebfae53f-c1bb-4ae3-bcb1-be2d0aab8c8e', name :'Contrast Weights: Audi',  value : '[0, 0, 1, 0]'})
+create (_37:parameterestimate { id : 'http://iri.nidash.org/1a200719-0a7e-42bb-a4b8-1006bd156ba8', name :'Parameter estimate 3',  filename : 'pe3.nii.gz'})
+create (_38:grandmeanmap { id : 'http://iri.nidash.org/bacfbf52-706a-4737-883f-e8395d19adba', name :'Grand Mean Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/GrandMean.nii.gz', filename : 'mean_func.nii.gz'})
+create (_39:peakdefinitioncriteria { id : 'http://iri.nidash.org/0fd90c6c-35b8-43bd-9efd-f850aab1ec7e', name :'Peak Definition Criteria'})
+create (_40:coordinate { id : 'http://iri.nidash.org/71ba2b8e-31a0-4027-9252-35a15906c451', name :'Coordinate 0001_2',  coordinatevector : '[ -8.72, -96.4, 8.03 ]'})
+create (_41:excursionsetmap { id : 'http://iri.nidash.org/59648721-73fe-42f4-92bf-8ca993fe7d03', name :'Excursion Set Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ExcursionSet_T001.nii.gz', filename : 'thresh_zstat1.nii.gz'})
+create (_42:parameterestimate { id : 'http://iri.nidash.org/a70527c7-0a7a-4811-9754-3c8850868d33', name :'Parameter estimate 1',  filename : 'pe1.nii.gz'})
+create (_43:peak { id : 'http://iri.nidash.org/653b9f19-b21c-4684-8b4d-4062609a6253', name :'Peak 0001_4',  pvalue_uncorrected : '0.000967603213218', equivalent_zstatistic : '3.1'})
 create (_44:contraststandarderrormap { id : 'http://iri.nidash.org/ffd80254-6d21-42af-84aa-2f1705146e58', name :'Contrast Standard Error Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ContrastStandardError_T002.nii.gz', filename : 'ContrastStandardError_T002.nii.gz'})
 create (_45:coordinate { id : 'http://iri.nidash.org/36bb1942-6957-426b-870d-83194013fea9', name :'Coordinate 0001_5',  coordinatevector : '[ 11.7, 23.6, -10.2 ]'})
 create (_46:inference { id : 'http://iri.nidash.org/175f2b5a-cfcc-4c22-995c-c3813daac305', name :'Inference: Audi'})
 create (_47:centerofgravity { id : 'http://iri.nidash.org/27b1df8c-f46c-48cb-8917-357bd8e0b37f', name :'Center of gravity 1'})
 create (_48:coordinate { id : 'http://iri.nidash.org/f654a391-9ab9-46dc-a156-51ae1e7bbda5', name :'Coordinate 0001_1',  coordinatevector : '[ -8.52, -92.4, -5.73 ]'})
-create (_49:peak { id : 'http://iri.nidash.org/653b9f19-b21c-4684-8b4d-4062609a6253', name :'Peak 0001_4',  pvalue_uncorrected : '0.000967603213218', equivalent_zstatistic : '3.1'})
-create (_50:centerofgravity { id : 'http://iri.nidash.org/084d80ce-c639-48c4-b4c2-2de21f3026cd', name :'Center of gravity 2'})
-create (_51:contraststandarderrormap { id : 'http://iri.nidash.org/8cede272-73de-45f1-a31f-5ea7b52eefd0', name :'Contrast Standard Error Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ContrastStandardError_T001.nii.gz', filename : 'ContrastStandardError_T001.nii.gz'})
-create (_52:peak { id : 'http://iri.nidash.org/fe352658-ba7f-4e59-a802-7e12f5472c1e', name :'Peak 0001_1',  pvalue_uncorrected : '4.07408045586e-05', equivalent_zstatistic : '3.94'})
-create (_53:fslsgaussianrunninglinedriftmodel { id : 'http://iri.nidash.org/110b9e0f-b7f0-4567-8c04-b31828f8ed3a', name :'FSLs Gaussian Running Line Drift Model'})
-create (_54:statisticmap { id : 'http://iri.nidash.org/83c9c447-82a8-419e-9dd0-b050b2a09262', name :'ZStatistic Map: Audi',  filename : 'zstat2.nii.gz', atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ZStatistic_T002.nii.gz'})
-create (_55:clusterconnectivitycriterion { id : 'http://iri.nidash.org/e6fa2a96-6d57-4fa2-b85b-959e16d1266d', name :'Cluster Connectivity Criterion: 26'})
-create (_56:coordinate { id : 'http://iri.nidash.org/d17e1962-3bb0-4ea4-8520-c5a4ec5008a7', name :'Coordinate 0001',  coordinatevector : '[ 2.08, -83.0, -1.16 ]'})
-create (_57:peak { id : 'http://iri.nidash.org/94f545cd-f401-4b7e-80aa-1a7e245e41e0', name :'Peak 0001_2',  pvalue_uncorrected : '0.000270087693963', equivalent_zstatistic : '3.46'})
-create (_58:significantcluster { id : 'http://iri.nidash.org/9e39cfb9-f0f5-4641-8840-ba4e566c5049', name :'Significant Cluster 0001',  pvalue_fwer : '0.0113'})
-create (_59:significantcluster { id : 'http://iri.nidash.org/b231af9b-95ff-465b-8eca-e0d89439b8c6', name :'Significant Cluster 0002',  pvalue_fwer : '4.17e-42'})
-create (_60:peak { id : 'http://iri.nidash.org/013f6ece-4f30-4698-b427-6c90e9403718', name :'Peak 0001_2',  pvalue_uncorrected : '1.37445610449e-12', equivalent_zstatistic : '6.99'})
-create (_61:coordinate { id : 'http://iri.nidash.org/1ef64c0f-e103-4d8e-bfec-6f485c0fd856', name :'Coordinate 0002_3',  coordinatevector : '[ -51.9, -31.7, 6.5 ]'})
-create (_62:contrastestimation { id : 'http://iri.nidash.org/1ce34244-7554-4eb1-9851-344a4507473e', name :'Contrast estimation: Audi'})
-create (_63:statisticmap { id : 'http://iri.nidash.org/5cddab88-3087-4e36-a9d0-6d7698bd91aa', name :'Statistic Map: Audi',  filename : 'TStatistic_T002.nii.gz', atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/TStatistic_T002.nii.gz'})
-create (_64:coordinate { id : 'http://iri.nidash.org/5e14be97-992c-4d22-8191-a1cbc179d388', name :'Coordinate 0002_4',  coordinatevector : '[ 55.9, 3.06, -17.1 ]'})
-create (_65:peak { id : 'http://iri.nidash.org/c06a0627-d927-426f-b512-05f5a84f89fd', name :'Peak 0002_5',  pvalue_uncorrected : '2.87685431033e-11', equivalent_zstatistic : '6.55'})
-create (_66:contrastweights { id : 'http://iri.nidash.org/14c8f0cf-2ae8-4e30-bfce-d4b6d67ce1d5', name :'Contrast Weights: Visual',  value : '[1, 0, 0, 0]'})
-create (_67:coordinate { id : 'http://iri.nidash.org/d6f395b7-3d73-4d0e-a891-8b7f9273f08b', name :'Coordinate 0002',  coordinatevector : '[ -12.9, -19.3, -3.66 ]'})
-create (_68:peak { id : 'http://iri.nidash.org/99e9c287-3ab4-4ab2-92e9-d8c8d8fe2281', name :'Peak 0001_4',  pvalue_uncorrected : '8.48321413116e-12', equivalent_zstatistic : '6.73'})
-create (_69:residualmeansquaresmap { id : 'http://iri.nidash.org/df6e90c3-3953-4346-bf5c-b92d8ffcf95c', name :'Residual Mean Squares Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ResidualMeanSquares.nii.gz', filename : 'sigmasquareds.nii.gz'})
-create (_70:nidmresults { id : 'http://iri.nidash.org/7ef2a7ce-0c42-4ee7-a1fe-a75b12f743b3', name :'NIDMResults'})
+create (_49:centerofgravity { id : 'http://iri.nidash.org/084d80ce-c639-48c4-b4c2-2de21f3026cd', name :'Center of gravity 2'})
+create (_50:contraststandarderrormap { id : 'http://iri.nidash.org/8cede272-73de-45f1-a31f-5ea7b52eefd0', name :'Contrast Standard Error Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ContrastStandardError_T001.nii.gz', filename : 'ContrastStandardError_T001.nii.gz'})
+create (_51:peak { id : 'http://iri.nidash.org/fe352658-ba7f-4e59-a802-7e12f5472c1e', name :'Peak 0001_1',  pvalue_uncorrected : '4.07408045586e-05', equivalent_zstatistic : '3.94'})
+create (_52:fslsgaussianrunninglinedriftmodel { id : 'http://iri.nidash.org/110b9e0f-b7f0-4567-8c04-b31828f8ed3a', name :'FSLs Gaussian Running Line Drift Model'})
+create (_53:statisticmap { id : 'http://iri.nidash.org/83c9c447-82a8-419e-9dd0-b050b2a09262', name :'ZStatistic Map: Audi',  filename : 'zstat2.nii.gz', atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ZStatistic_T002.nii.gz'})
+create (_54:clusterconnectivitycriterion { id : 'http://iri.nidash.org/e6fa2a96-6d57-4fa2-b85b-959e16d1266d', name :'Cluster Connectivity Criterion: 26'})
+create (_55:coordinate { id : 'http://iri.nidash.org/d17e1962-3bb0-4ea4-8520-c5a4ec5008a7', name :'Coordinate 0001',  coordinatevector : '[ 2.08, -83.0, -1.16 ]'})
+create (_56:peak { id : 'http://iri.nidash.org/94f545cd-f401-4b7e-80aa-1a7e245e41e0', name :'Peak 0001_2',  pvalue_uncorrected : '0.000270087693963', equivalent_zstatistic : '3.46'})
+create (_57:significantcluster { id : 'http://iri.nidash.org/9e39cfb9-f0f5-4641-8840-ba4e566c5049', name :'Significant Cluster 0001',  pvalue_fwer : '0.0113'})
+create (_58:significantcluster { id : 'http://iri.nidash.org/b231af9b-95ff-465b-8eca-e0d89439b8c6', name :'Significant Cluster 0002',  pvalue_fwer : '4.17e-42'})
+create (_59:peak { id : 'http://iri.nidash.org/013f6ece-4f30-4698-b427-6c90e9403718', name :'Peak 0001_2',  pvalue_uncorrected : '1.37445610449e-12', equivalent_zstatistic : '6.99'})
+create (_60:coordinate { id : 'http://iri.nidash.org/1ef64c0f-e103-4d8e-bfec-6f485c0fd856', name :'Coordinate 0002_3',  coordinatevector : '[ -51.9, -31.7, 6.5 ]'})
+create (_61:contrastestimation { id : 'http://iri.nidash.org/1ce34244-7554-4eb1-9851-344a4507473e', name :'Contrast estimation: Audi'})
+create (_62:statisticmap { id : 'http://iri.nidash.org/5cddab88-3087-4e36-a9d0-6d7698bd91aa', name :'Statistic Map: Audi',  filename : 'tstat2.nii.gz', atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/TStatistic_T002.nii.gz'})
+create (_63:coordinate { id : 'http://iri.nidash.org/5e14be97-992c-4d22-8191-a1cbc179d388', name :'Coordinate 0002_4',  coordinatevector : '[ 55.9, 3.06, -17.1 ]'})
+create (_64:peak { id : 'http://iri.nidash.org/c06a0627-d927-426f-b512-05f5a84f89fd', name :'Peak 0002_5',  pvalue_uncorrected : '2.87685431033e-11', equivalent_zstatistic : '6.55'})
+create (_65:contrastweights { id : 'http://iri.nidash.org/14c8f0cf-2ae8-4e30-bfce-d4b6d67ce1d5', name :'Contrast Weights: Visual',  value : '[1, 0, 0, 0]'})
+create (_66:coordinate { id : 'http://iri.nidash.org/d6f395b7-3d73-4d0e-a891-8b7f9273f08b', name :'Coordinate 0002',  coordinatevector : '[ -12.9, -19.3, -3.66 ]'})
+create (_67:peak { id : 'http://iri.nidash.org/99e9c287-3ab4-4ab2-92e9-d8c8d8fe2281', name :'Peak 0001_4',  pvalue_uncorrected : '8.48321413116e-12', equivalent_zstatistic : '6.73'})
+create (_68:residualmeansquaresmap { id : 'http://iri.nidash.org/df6e90c3-3953-4346-bf5c-b92d8ffcf95c', name :'Residual Mean Squares Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/ResidualMeanSquares.nii.gz', filename : 'sigmasquareds.nii.gz'})
+create (_69:nidmresults { id : 'http://iri.nidash.org/7ef2a7ce-0c42-4ee7-a1fe-a75b12f743b3', name :'NIDMResults'})
+create (_70:data { id : 'http://iri.nidash.org/d690640b-719c-4dcf-8c32-aaf90aa494bf', name :'data_127',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/rendered_thresh_zstat2.png', filename : 'rendered_thresh_zstat2.png'})
 create (_71:centerofgravity { id : 'http://iri.nidash.org/d161e02b-0d94-4aaf-9a5d-7681c5903c38', name :'Center of gravity 1'})
 create (_72:coordinate { id : 'http://iri.nidash.org/88b653a0-1449-47bb-a319-9195e146f874', name :'Coordinate 0001_3',  coordinatevector : '[ 20.9, 31.5, -17.5 ]'})
 create (_73:inference { id : 'http://iri.nidash.org/3036acae-60c5-473c-81da-0be93be2ca81', name :'Inference: Visual'})
 create (_74:fsl { id : 'http://iri.nidash.org/42c53e2c-5ee4-48c2-a49d-2a5b02eaadc6', name :'FSL'})
 create (_75:statisticmap { id : 'http://iri.nidash.org/f4894d84-7359-46c6-a68b-99a3de869dcf', name :'Statistic Map: Visual',  filename : 'TStatistic_T001.nii.gz', atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/TStatistic_T001.nii.gz'})
 create (_76:contrastmap { id : 'http://iri.nidash.org/e11f878d-9aac-46b1-8356-0cb65697f78b', name :'Contrast Map: Visual',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/Contrast_T001.nii.gz', filename : 'Contrast_T001.nii.gz'})
-create (_77:contrastmap { id : 'http://iri.nidash.org/f423e6c0-0718-44d7-9cda-c88f395605ab', name :'Contrast Map: Audi',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/Contrast_T002.nii.gz', filename : 'cope2.nii.gz'})
+create (_77:contrastmap { id : 'http://iri.nidash.org/f423e6c0-0718-44d7-9cda-c88f395605ab', name :'Contrast Map: Audi',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/Contrast_T002.nii.gz', filename : 'Contrast_T002.nii.gz'})
 create (_78:coordinate { id : 'http://iri.nidash.org/353e2155-33de-48ae-a564-6a83a1a61e6a', name :'Coordinate 0002_1',  coordinatevector : '[ -65.0, -23.6, -0.366 ]'})
 create (_79:searchspacemaskmap { id : 'http://iri.nidash.org/ac05c7fa-0f12-4403-91ca-28845c372a39', name :'Search Space Mask Map',  atlocation : 'http://neurovault.org/collections/877/fsl_course_av.nidm/SearchSpaceMask.nii.gz', filename : 'SearchSpaceMask.nii.gz'})
 create (_80:coordinatespace { id : 'http://iri.nidash.org/0de093e9-ebdf-44ec-88b2-f867506a61bc', name :'Coordinate space'})
@@ -94,48 +94,48 @@ create (_82:coordinate { id : 'http://iri.nidash.org/62f3071d-6fb9-479e-af8c-f4b
 create (_83:parameterestimate { id : 'http://iri.nidash.org/54fed039-6565-498e-a42b-8b737e66772e', name :'Parameter estimate 2',  filename : 'pe2.nii.gz'})
 create (_84:heightthreshold { id : 'http://iri.nidash.org/2c69b6de-60aa-4d64-8a54-a0bf14e4d19a', name :'Height Threshold: Z>2.3',  value : '2.3'})
 create _85-[:`ATLOCATION`]->_79
-create _85-[:`WASDERIVEDFROM`]->_60
+create _85-[:`WASDERIVEDFROM`]->_59
 create _8-[:`ATLOCATION`]->_15
 create _8-[:`WASDERIVEDFROM`]->_10
-create _9-[:`WASDERIVEDFROM`]->_43
+create _9-[:`WASDERIVEDFROM`]->_42
 create _10-[:`ATLOCATION`]->_46
-create _10-[:`WASDERIVEDFROM`]->_59
+create _10-[:`WASDERIVEDFROM`]->_58
 create _12-[:`ATLOCATION`]->_4
-create _12-[:`WASDERIVEDFROM`]->_60
-create _15-[:`ATLOCATION`]->_62
-create _15-[:`WASDERIVEDFROM`]->_60
-create _27-[:`ATLOCATION`]->_83
-create _27-[:`WASDERIVEDFROM`]->_10
-create _28-[:`ATLOCATION`]->_6
-create _28-[:`WASDERIVEDFROM`]->_60
-create _29-[:`ATLOCATION`]->_7
-create _29-[:`WASDERIVEDFROM`]->_10
-create _31-[:`ATLOCATION`]->_73
-create _31-[:`WASDERIVEDFROM`]->_59
-create _32-[:`ATLOCATION`]->_49
-create _32-[:`WASDERIVEDFROM`]->_10
-create _36-[:`ATLOCATION`]->_65
-create _36-[:`WASDERIVEDFROM`]->_60
+create _12-[:`WASDERIVEDFROM`]->_59
+create _15-[:`ATLOCATION`]->_61
+create _15-[:`WASDERIVEDFROM`]->_59
+create _26-[:`ATLOCATION`]->_83
+create _26-[:`WASDERIVEDFROM`]->_10
+create _27-[:`ATLOCATION`]->_6
+create _27-[:`WASDERIVEDFROM`]->_59
+create _28-[:`ATLOCATION`]->_7
+create _28-[:`WASDERIVEDFROM`]->_10
+create _30-[:`ATLOCATION`]->_73
+create _30-[:`WASDERIVEDFROM`]->_58
+create _31-[:`ATLOCATION`]->_49
+create _31-[:`WASDERIVEDFROM`]->_10
+create _35-[:`ATLOCATION`]->_64
+create _35-[:`WASDERIVEDFROM`]->_59
+create _43-[:`ATLOCATION`]->_30
+create _43-[:`WASDERIVEDFROM`]->_58
 create _47-[:`WASDERIVEDFROM`]->_10
-create _47-[:`ATLOCATION`]->_57
-create _49-[:`ATLOCATION`]->_31
+create _47-[:`ATLOCATION`]->_56
 create _49-[:`WASDERIVEDFROM`]->_59
-create _50-[:`WASDERIVEDFROM`]->_60
-create _50-[:`ATLOCATION`]->_68
-create _52-[:`ATLOCATION`]->_2
-create _52-[:`WASDERIVEDFROM`]->_59
-create _57-[:`ATLOCATION`]->_27
-create _57-[:`WASDERIVEDFROM`]->_59
+create _49-[:`ATLOCATION`]->_67
+create _51-[:`ATLOCATION`]->_2
+create _51-[:`WASDERIVEDFROM`]->_58
+create _56-[:`ATLOCATION`]->_26
+create _56-[:`WASDERIVEDFROM`]->_58
+create _57-[:`WASDERIVEDFROM`]->_82
 create _58-[:`WASDERIVEDFROM`]->_82
-create _59-[:`WASDERIVEDFROM`]->_82
-create _60-[:`ATLOCATION`]->_42
-create _60-[:`WASDERIVEDFROM`]->_10
-create _65-[:`ATLOCATION`]->_21
-create _65-[:`WASDERIVEDFROM`]->_60
-create _68-[:`ATLOCATION`]->_3
-create _68-[:`WASDERIVEDFROM`]->_10
-create _71-[:`WASDERIVEDFROM`]->_59
-create _71-[:`ATLOCATION`]->_36
+create _59-[:`ATLOCATION`]->_41
+create _59-[:`WASDERIVEDFROM`]->_10
+create _64-[:`ATLOCATION`]->_20
+create _64-[:`WASDERIVEDFROM`]->_59
+create _67-[:`ATLOCATION`]->_3
+create _67-[:`WASDERIVEDFROM`]->_10
+create _71-[:`WASDERIVEDFROM`]->_58
+create _71-[:`ATLOCATION`]->_35
 ----
 //graph
 We can use cypher to query the graph, here are some examples:
@@ -152,4 +152,4 @@ MATCH (p:peak)-[l:ATLOCATION]->(c:coordinate) RETURN c.name as name, c.coordinat
 //table
 '''
 == NIDM Working Group
-* link:http://http://nidm.nidash.org/[NIDM Standard]
+* link:http://nidm.nidash.org/[NIDM Standard]
